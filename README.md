@@ -27,10 +27,15 @@
 (Chainer_Realtime_Multi-Person_Pose_Estimation 이용)  
 <https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation/blob/master/README.md>
 
-3. 추출한 좌표 정보로 손가락 길이를 예측한다. roi를 500 X 500 픽셀로 resize했기 때문에 1 pixel == 0.05 mm가 된다.
+3. 추출한 좌표 정보를 이용하여 손가락과 손가락 사이의 골짜기 부분의 좌표를 계산한다.
+
+4. 계산된 결과로 손가락 길이와 손바닥 길이를 예측한다.  
+   roi를 500 X 500 픽셀로 resize했기 때문에 1 pixel == 0.05 mm가 된다.
+
 
 
 ## 4. 결과
 
 ![ROI](https://user-images.githubusercontent.com/46870741/68008955-e0b08d80-fcc3-11e9-97f7-3404243c44b8.jpg)
+![1](https://user-images.githubusercontent.com/46870741/68023059-875b5500-fce9-11e9-9556-28b44198c5fe.png)
 ![hand_result](https://user-images.githubusercontent.com/46870741/68008985-f625b780-fcc3-11e9-8ce3-5ce62da79fef.jpg)
