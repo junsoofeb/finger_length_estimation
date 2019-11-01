@@ -1,8 +1,8 @@
 # finger_length_estimation
 손가락 길이 예측
 
-## demo.py
-(prototype)
+## hand_demo.py
+
 ***
 
 ## 1. 개요
@@ -30,15 +30,7 @@
 3. 추출한 좌표 정보로 손가락 길이를 예측한다. roi를 500 X 500 픽셀로 resize했기 때문에 1 pixel == 0.05 mm가 된다.
 
 
-## 4. 예시
-<1>
-![1](https://user-images.githubusercontent.com/46870741/67832785-10299380-fb26-11e9-84ce-adc2602a998c.png)
+## 4. 결과
 
-<2>
-![2](https://user-images.githubusercontent.com/46870741/67832786-10c22a00-fb26-11e9-9064-178a33d32f2a.png)
-
-<3>
-![3](https://user-images.githubusercontent.com/46870741/67832787-10c22a00-fb26-11e9-9576-02722d4ee5b5.png)
-
-<4>
-![4](https://user-images.githubusercontent.com/46870741/67832788-10c22a00-fb26-11e9-8503-5ceabfde8855.png)
+![ROI](https://user-images.githubusercontent.com/46870741/68008955-e0b08d80-fcc3-11e9-97f7-3404243c44b8.jpg)
+![hand_result](https://user-images.githubusercontent.com/46870741/68008985-f625b780-fcc3-11e9-8ce3-5ce62da79fef.jpg)
