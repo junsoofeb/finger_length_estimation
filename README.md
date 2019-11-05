@@ -1,8 +1,9 @@
 # finger_length_estimation
 손가락 길이 예측
 
-## hand_demo.py
+## hand_demo.py << README는 hand_demo.py로 작성
 
+## update : hand_auto_version.py << 움직임 감지를 통한 자동화 버젼
 ***
 
 ## 1. 개요
@@ -30,7 +31,7 @@
 3. 추출한 좌표 정보를 이용하여 손가락과 손가락 사이의 골짜기 부분의 좌표를 계산한다.
 
 4. 계산된 결과로 손가락 길이와 손바닥 길이를 예측한다.  
-   roi를 500 X 500 픽셀로 resize했기 때문에 1 pixel == 0.05 mm가 된다.
+   roi를 500 X 500 픽셀로 resize했기 때문에 1 pixel == 0.05 cm가 된다.
 
 
 
