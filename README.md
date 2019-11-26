@@ -38,5 +38,9 @@
 ## 4. 결과
 
 ![ROI](https://user-images.githubusercontent.com/46870741/68008955-e0b08d80-fcc3-11e9-97f7-3404243c44b8.jpg)
+
+
 ![1](https://user-images.githubusercontent.com/46870741/68023059-875b5500-fce9-11e9-9556-28b44198c5fe.png)
+
+
 ![hand_result](https://user-images.githubusercontent.com/46870741/68008985-f625b780-fcc3-11e9-8ce3-5ce62da79fef.jpg)
