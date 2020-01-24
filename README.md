@@ -17,9 +17,12 @@ OpenCV와 Chainer_Realtime_Multi-Person_Pose_Estimation을 이용한 손가락 �
 
 ## 3. 동작 과정
 
-1. 사용자가 카메라의 위치를 지정하기 위해 첫 프레임을 촬영하고, 추출할 roi의 좌상단 우하단을 마우스로 클릭하여 추출.  
 ### (roi의 width, height는 25cm로 가정.)  
-(find_square()함수를 이용하면 자동으로 정사각형 모양 roi를 찾지만 정확도를 올리기 위해서 demo버전에서는 마우스 이벤트를 사용함)  
+
+1. 사용자가 카메라의 위치를 지정하기 위해 첫 프레임을 촬영하고, 추출할 roi의 좌상단 우하단을 마우스로 클릭하여 추출.  
+
+(프로그램 속 find_square()함수를 이용하면 프레임에서 자동으로 정사각형 모양 roi를 찾지만  
+ 정확도를 올리기 위해서 demo버전에서는 마우스 이벤트를 사용.)  
 
 2. 추출한 roi에서 Chainer_Realtime_Multi-Person_Pose_Estimation을 이용하여 손의 뼈대 좌표를 측정.  
 <https://github.com/DeNA/Chainer_Realtime_Multi-Person_Pose_Estimation/blob/master/README.md>
